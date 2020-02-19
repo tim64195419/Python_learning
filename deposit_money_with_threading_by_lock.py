@@ -35,6 +35,7 @@ def main():
     for _ in range(100):
         t = AddMoneyThread(account,1)
         threads.append(t)
+        # print(threads)
         t.start()
 
     for t in threads:
