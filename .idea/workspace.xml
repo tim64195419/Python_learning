@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67b5a905-f1cd-42cb-89d6-58b82512d458" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSON.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/multiprocess.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/regular.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/threading.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deposit_money_with_threading_by_lock.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/threading.py" beforeDir="false" afterPath="$PROJECT_DIR$/Threading.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +43,7 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager" selected="Python.multiprocessing">
+  <component name="RunManager" selected="Python.deposit_money_with_threading_by_lock">
     <configuration name="API" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -70,7 +65,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="JSON" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Threading" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -82,7 +77,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/JSON.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Threading.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="deposit_money_with_threading_by_lock" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deposit_money_with_threading_by_lock.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -135,10 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.deposit_money_with_threading_by_lock" />
+        <item itemvalue="Python.Threading" />
         <item itemvalue="Python.multiprocessing" />
         <item itemvalue="Python.regular" />
         <item itemvalue="Python.API" />
-        <item itemvalue="Python.JSON" />
       </list>
     </recent_temporary>
   </component>
@@ -163,28 +180,33 @@
       <screen x="0" y="23" width="1280" height="726" />
     </state>
     <state x="272" y="23" key="#tkinter/0.23.1280.726/-1366.244.1366.745@0.23.1280.726" timestamp="1582083383271" />
-    <state x="192" y="23" key="CommitChangelistDialog2" timestamp="1582095252503">
-      <screen x="0" y="23" width="1280" height="724" />
+    <state x="192" y="23" key="CommitChangelistDialog2" timestamp="1582098598785">
+      <screen x="0" y="23" width="1280" height="723" />
     </state>
+    <state x="192" y="23" key="CommitChangelistDialog2/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1582098598785" />
     <state x="192" y="23" key="CommitChangelistDialog2/0.23.1280.724/-1366.244.1366.745@0.23.1280.724" timestamp="1582095252503" />
-    <state width="1122" height="179" key="GridCell.Tab.0.bottom" timestamp="1582095204115">
-      <screen x="0" y="23" width="1280" height="724" />
+    <state width="1122" height="179" key="GridCell.Tab.0.bottom" timestamp="1582098542914">
+      <screen x="0" y="23" width="1280" height="723" />
     </state>
+    <state width="1122" height="179" key="GridCell.Tab.0.bottom/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1582098542914" />
     <state width="1122" height="179" key="GridCell.Tab.0.bottom/0.23.1280.724/-1366.244.1366.745@0.23.1280.724" timestamp="1582095204115" />
     <state width="1122" height="179" key="GridCell.Tab.0.bottom/0.23.1280.726/-1366.244.1366.745@0.23.1280.726" timestamp="1582091649714" />
-    <state width="1122" height="179" key="GridCell.Tab.0.center" timestamp="1582095204114">
-      <screen x="0" y="23" width="1280" height="724" />
+    <state width="1122" height="179" key="GridCell.Tab.0.center" timestamp="1582098542913">
+      <screen x="0" y="23" width="1280" height="723" />
     </state>
+    <state width="1122" height="179" key="GridCell.Tab.0.center/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1582098542913" />
     <state width="1122" height="179" key="GridCell.Tab.0.center/0.23.1280.724/-1366.244.1366.745@0.23.1280.724" timestamp="1582095204114" />
     <state width="1122" height="179" key="GridCell.Tab.0.center/0.23.1280.726/-1366.244.1366.745@0.23.1280.726" timestamp="1582091649713" />
-    <state width="1122" height="179" key="GridCell.Tab.0.left" timestamp="1582095204114">
-      <screen x="0" y="23" width="1280" height="724" />
+    <state width="1122" height="179" key="GridCell.Tab.0.left" timestamp="1582098542913">
+      <screen x="0" y="23" width="1280" height="723" />
     </state>
+    <state width="1122" height="179" key="GridCell.Tab.0.left/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1582098542913" />
     <state width="1122" height="179" key="GridCell.Tab.0.left/0.23.1280.724/-1366.244.1366.745@0.23.1280.724" timestamp="1582095204114" />
     <state width="1122" height="179" key="GridCell.Tab.0.left/0.23.1280.726/-1366.244.1366.745@0.23.1280.726" timestamp="1582091649712" />
-    <state width="1122" height="179" key="GridCell.Tab.0.right" timestamp="1582095204115">
-      <screen x="0" y="23" width="1280" height="724" />
+    <state width="1122" height="179" key="GridCell.Tab.0.right" timestamp="1582098542914">
+      <screen x="0" y="23" width="1280" height="723" />
     </state>
+    <state width="1122" height="179" key="GridCell.Tab.0.right/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1582098542914" />
     <state width="1122" height="179" key="GridCell.Tab.0.right/0.23.1280.724/-1366.244.1366.745@0.23.1280.724" timestamp="1582095204115" />
     <state width="1122" height="179" key="GridCell.Tab.0.right/0.23.1280.726/-1366.244.1366.745@0.23.1280.726" timestamp="1582091649713" />
     <state x="78" y="23" key="SettingsEditor" timestamp="1582095015426">
