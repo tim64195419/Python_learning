@@ -81,8 +81,15 @@ prices = {
     'FB': 208.09,
     'SYMC': 21.29
 }
+
+numbers = [3,64,32,67,88,94,54,25]
 # 用股票价格大于100元的股票构造一个新的字典
-prices2 = {key: value for key, value in prices.items() if value > 200}
+prices2 = {key: value for key, value in prices.items() if value > 50}
 print(prices2)
+prices2 = seq_search(prices2,'ACN')
+print(prices2)
+print('=======================')
+numbers = seq_search(numbers,94)
+print(numbers)
 
 # =====================================================================
