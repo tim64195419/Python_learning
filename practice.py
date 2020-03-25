@@ -1,16 +1,21 @@
-class logger(object):
-    def __init__(self, level='INFO'):
-        self.level = level
+import time
 
-    def __call__(self, func): # 接受函数
-        def wrapper(*args, **kwargs):
-            print("[{level}]: the function {func}() is running..."\
-                .format(level=self.level, func=func.__name__))
-            func(*args, **kwargs)
-        return wrapper  #返回函数
 
-@logger(level='WARNING')
-def say(something):
-    print("say {}!".format(something))
+def print_func_name(time):
+    def decorator(func):
+        def warp():
+            print("Now use function '{}'".format(func.__name__))
+            print("Now Unix time is {}.".format(int(time)))
+            func()
+        return warp
+    return decorator
 
-say("hello")
+
+@print_func_name(time=(time.time()))
+def dog_bark():
+    print("Bark !!!")
+
+
+
+if __name__ == "__main__":
+    dog_bark()
