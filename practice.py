@@ -1,20 +1,16 @@
-from collections import Counter
+class logger(object):
+    def __init__(self, level='INFO'):
+        self.level = level
 
-words = [
-    'look', 'into', 'my', 'eyes', 'look', 'into', 'my', 'eyes',
-    'the', 'eyes', 'the', 'eyes', 'the', 'eyes', 'not', 'around',
-    'the', 'eyes', "don't", 'look', 'around', 'the', 'eyes',
-    'look', 'into', 'my', 'eyes', "you're", 'under'
-]
-counter = Counter(words)
-print(counter.most_common(3))
+    def __call__(self, func): # 接受函数
+        def wrapper(*args, **kwargs):
+            print("[{level}]: the function {func}() is running..."\
+                .format(level=self.level, func=func.__name__))
+            func(*args, **kwargs)
+        return wrapper  #返回函数
 
+@logger(level='WARNING')
+def say(something):
+    print("say {}!".format(something))
 
-
-items1 = list(map(lambda x: x ** 2, filter(lambda x: x % 2, range(1, 20))))
-items2 = [x ** 2 for x in range(1, 20) if x % 2]
-
-
-
-
-print(items2)
+say("hello")
