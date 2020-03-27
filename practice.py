@@ -1,14 +1,13 @@
-import pickle
+def fib(num):
+    """生成器"""
+    a, b = 0, 1
+    while True:
+        a, b = b, a + b
 
-data = {'foo': [1, 2, 3],
-        'bar': ('Hello', 'world!'),
-        'baz': True}
-jar = open('data.pkl', 'wb')
-pickle.dump(data, jar) # write the pickled data to the file jar
-jar.close()
+        yield a
+        print(a)
 
-
-pkl_file = open('data.pkl', 'rb') # connect to the pickled data
-data = pickle.load(pkl_file) # load it into a variable
-print(data)
-pkl_file.close()
+fi = fib(12)
+fi.send(None)
+for x in range(12):
+        fi.__next__()
