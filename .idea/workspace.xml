@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="67b5a905-f1cd-42cb-89d6-58b82512d458" name="Default Changelist" comment="" />
+    <list default="true" id="67b5a905-f1cd-42cb-89d6-58b82512d458" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pickle_pracrice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +30,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -46,7 +51,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.practice">
+  <component name="RunManager" selected="Python.Poker_game">
     <configuration name="ManAndMachine" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -110,7 +115,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Question" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="pickle_pracrice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -122,7 +127,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Question.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pickle_pracrice.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.practice" />
         <item itemvalue="Python.Poker_game" />
+        <item itemvalue="Python.pickle_pracrice" />
+        <item itemvalue="Python.practice" />
         <item itemvalue="Python.Monthly_salary_cal" />
         <item itemvalue="Python.ManAndMachine" />
-        <item itemvalue="Python.Question" />
       </list>
     </recent_temporary>
   </component>
@@ -179,6 +184,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="687" y="210" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585293604281">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="687" y="210" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.800/-1366.225.1366.768@0.0.1280.800" timestamp="1585293604281" />
+    <state x="703" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585293758186">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="703" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.800/-1366.225.1366.768@0.0.1280.800" timestamp="1585293758186" />
     <state x="272" y="23" key="#tkinter" timestamp="1582083383271">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
@@ -191,10 +204,10 @@
     <state x="192" y="23" key="CommitChangelistDialog2/0.23.1280.726/-1366.244.1366.745@0.23.1280.726" timestamp="1582115995903" />
     <state x="192" y="23" key="CommitChangelistDialog2/0.23.1280.726/-1366.248.1366.745@0.23.1280.726" timestamp="1583222230148" />
     <state x="192" y="23" key="CommitChangelistDialog2/0.23.1280.727/-1366.248.1366.745@0.23.1280.727" timestamp="1582771583677" />
-    <state width="559" height="263" key="GridCell.Tab.0.bottom" timestamp="1585149694588">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state width="613" height="171" key="GridCell.Tab.0.bottom" timestamp="1585295284278">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="559" height="213" key="GridCell.Tab.0.bottom/0.0.1280.800/-1366.225.1366.768@0.0.1280.800" timestamp="1585148043482" />
+    <state width="613" height="171" key="GridCell.Tab.0.bottom/0.0.1280.800/-1366.225.1366.768@0.0.1280.800" timestamp="1585295284278" />
     <state width="1122" height="179" key="GridCell.Tab.0.bottom/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1582112555007" />
     <state width="1122" height="179" key="GridCell.Tab.0.bottom/0.23.1280.724/-1366.244.1366.745@0.23.1280.724" timestamp="1582095204115" />
     <state width="1122" height="106" key="GridCell.Tab.0.bottom/0.23.1280.724/-1366.248.1366.745@-1366.248.1366.745" timestamp="1584768240758" />
@@ -208,10 +221,10 @@
     <state width="1122" height="179" key="GridCell.Tab.0.bottom/0.23.1280.777/-1366.244.1366.691@0.23.1280.777" timestamp="1582179704798" />
     <state width="1122" height="179" key="GridCell.Tab.0.bottom/0.23.1280.777/-1366.248.1366.691@0.23.1280.777" timestamp="1583730293253" />
     <state width="559" height="263" key="GridCell.Tab.0.bottom/0.23.1280.777/-1366.248.1366.745@0.23.1280.777" timestamp="1585149694588" />
-    <state width="559" height="263" key="GridCell.Tab.0.center" timestamp="1585149694586">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state width="613" height="171" key="GridCell.Tab.0.center" timestamp="1585295284276">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="559" height="213" key="GridCell.Tab.0.center/0.0.1280.800/-1366.225.1366.768@0.0.1280.800" timestamp="1585148043479" />
+    <state width="613" height="171" key="GridCell.Tab.0.center/0.0.1280.800/-1366.225.1366.768@0.0.1280.800" timestamp="1585295284276" />
     <state width="1122" height="179" key="GridCell.Tab.0.center/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1582112555007" />
     <state width="1122" height="179" key="GridCell.Tab.0.center/0.23.1280.724/-1366.244.1366.745@0.23.1280.724" timestamp="1582095204114" />
     <state width="1122" height="106" key="GridCell.Tab.0.center/0.23.1280.724/-1366.248.1366.745@-1366.248.1366.745" timestamp="1584768240757" />
@@ -225,10 +238,10 @@
     <state width="1122" height="179" key="GridCell.Tab.0.center/0.23.1280.777/-1366.244.1366.691@0.23.1280.777" timestamp="1582179704797" />
     <state width="1122" height="179" key="GridCell.Tab.0.center/0.23.1280.777/-1366.248.1366.691@0.23.1280.777" timestamp="1583730293252" />
     <state width="559" height="263" key="GridCell.Tab.0.center/0.23.1280.777/-1366.248.1366.745@0.23.1280.777" timestamp="1585149694586" />
-    <state width="559" height="263" key="GridCell.Tab.0.left" timestamp="1585149694584">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state width="613" height="171" key="GridCell.Tab.0.left" timestamp="1585295284275">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="559" height="213" key="GridCell.Tab.0.left/0.0.1280.800/-1366.225.1366.768@0.0.1280.800" timestamp="1585148043477" />
+    <state width="613" height="171" key="GridCell.Tab.0.left/0.0.1280.800/-1366.225.1366.768@0.0.1280.800" timestamp="1585295284275" />
     <state width="1122" height="179" key="GridCell.Tab.0.left/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1582112555006" />
     <state width="1122" height="179" key="GridCell.Tab.0.left/0.23.1280.724/-1366.244.1366.745@0.23.1280.724" timestamp="1582095204114" />
     <state width="1122" height="106" key="GridCell.Tab.0.left/0.23.1280.724/-1366.248.1366.745@-1366.248.1366.745" timestamp="1584768240757" />
@@ -242,10 +255,10 @@
     <state width="1122" height="179" key="GridCell.Tab.0.left/0.23.1280.777/-1366.244.1366.691@0.23.1280.777" timestamp="1582179704796" />
     <state width="1122" height="179" key="GridCell.Tab.0.left/0.23.1280.777/-1366.248.1366.691@0.23.1280.777" timestamp="1583730293251" />
     <state width="559" height="263" key="GridCell.Tab.0.left/0.23.1280.777/-1366.248.1366.745@0.23.1280.777" timestamp="1585149694584" />
-    <state width="559" height="263" key="GridCell.Tab.0.right" timestamp="1585149694587">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state width="613" height="171" key="GridCell.Tab.0.right" timestamp="1585295284277">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="559" height="213" key="GridCell.Tab.0.right/0.0.1280.800/-1366.225.1366.768@0.0.1280.800" timestamp="1585148043480" />
+    <state width="613" height="171" key="GridCell.Tab.0.right/0.0.1280.800/-1366.225.1366.768@0.0.1280.800" timestamp="1585295284277" />
     <state width="1122" height="179" key="GridCell.Tab.0.right/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1582112555007" />
     <state width="1122" height="179" key="GridCell.Tab.0.right/0.23.1280.724/-1366.244.1366.745@0.23.1280.724" timestamp="1582095204115" />
     <state width="1122" height="106" key="GridCell.Tab.0.right/0.23.1280.724/-1366.248.1366.745@-1366.248.1366.745" timestamp="1584768240758" />
