@@ -2,7 +2,7 @@
 import pickle
 
 data = {'foo': [1, 2, 3],
-        'bar': ('Hello', 'world!'),
+        'bar': ('Hello', 'wewewerld!'),
         'baz': True}
 # 新建一個data.pkl 並且存入data
 jar = open('data.pkl', 'wb')
