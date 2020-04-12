@@ -2,7 +2,7 @@
 <project version="4">
   <component name="DBNavigator.Project.DataEditorManager">
     <record-view-column-sorting-type value="BY_INDEX" />
-    <value-preview-text-wrapping value="true" />
+    <value-preview-text-wrapping value="false" />
     <value-preview-pinned value="false" />
   </component>
   <component name="DBNavigator.Project.DataExportManager">
@@ -23,21 +23,61 @@
     <autoscroll-to-editor value="false" />
     <autoscroll-from-editor value="true" />
     <show-object-properties value="true" />
-    <loaded-nodes>
-      <connection connection-id="0d8c50a5-9d3d-45d7-82f7-aad3b9d4e6cc">
-        <schema name="mydatabase" object-types="view, table, column" />
-        <schema name="school" object-types="view, procedure, function, table, column" />
-      </connection>
-    </loaded-nodes>
+    <loaded-nodes />
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="0d8c50a5-9d3d-45d7-82f7-aad3b9d4e6cc">
-      <console name="Connection" type="STANDARD" schema="school" session="Main"><![CDATA[insert into tb_college (collname, collintro) values 
-('计算机学院', '创建于1956年是我国首批建立计算机专业。学院现有计算机科学与技术一级学科和网络空间安全一级学科博士学位授予权，其中计算机科学与技术一级学科具有博士后流动站。计算机科学与技术一级学科在2017年全国第四轮学科评估中评为A；2019 U.S.News全球计算机学科排名26名；ESI学科排名0.945‰，进入全球前1‰，位列第43位。'),
-('外国语学院', '1998年浙江大学、杭州大学、浙江农业大学、浙江医科大学四校合并，成立新的浙江大学。1999年原浙江大学外语系、原杭州大学外国语学院、原杭州大学大外部、原浙江农业大学公外部、原浙江医科大学外语教学部合并，成立浙江大学外国语学院。2003年学院更名为浙江大学外国语言文化与国际交流学院。'),
-('经济管理学院', '四川大学经济学院历史悠久、传承厚重，其前身是创办于1905年的四川大学经济科,距今已有100多年的历史。已故著名经济学家彭迪先、张与九、蒋学模、胡寄窗、陶大镛、胡代光，以及当代著名学者刘诗白等曾先后在此任教或学习。在长期的办学过程中，学院坚持以马克思主义的立场、观点、方法为指导，围绕建设世界一流经济学院的奋斗目标，做实“两个伟大”深度融合，不断提高党的建设质量与科学推进一流事业深度融合。');
+      <console name="Connection" type="STANDARD" schema="hrs" session="Main"><![CDATA[drop database if exists hrs;
+create database hrs default charset utf8;
 
--- 插入学生数据]]></console>
+use Schemas;
+
+drop table if exists tb_emp;
+drop table if exists tb_dept;
+
+create table tb_dept
+(
+dno   int not null comment '编号',
+dname varchar(10) not null comment '名称',
+dloc  varchar(20) not null comment '所在地',
+primary key (dno)
+);
+
+insert into tb_dept values 
+	(10, '会计部', '北京'),
+	(20, '研发部', '成都'),
+	(30, '销售部', '重庆'),
+	(40, '运维部', '深圳');
+
+create table tb_emp
+(
+eno   int not null comment '员工编号',
+ename varchar(20) not null comment '员工姓名',
+job   varchar(20) not null comment '员工职位',
+mgr   int comment '主管编号',
+sal   int not null comment '员工月薪',
+comm  int comment '每月补贴',
+dno   int comment '所在部门编号',
+primary key (eno)
+);
+
+alter table tb_emp add constraint fk_emp_dno foreign key (dno) references tb_dept (dno);
+
+insert into tb_emp values 
+	(7800, '张三丰', '总裁', null, 9000, 1200, 20),
+	(2056, '乔峰', '分析师', 7800, 5000, 1500, 20),
+	(3088, '李莫愁', '设计师', 2056, 3500, 800, 20),
+	(3211, '张无忌', '程序员', 2056, 3200, null, 20),
+	(3233, '丘处机', '程序员', 2056, 3400, null, 20),
+	(3251, '张翠山', '程序员', 2056, 4000, null, 20),
+	(5566, '宋远桥', '会计师', 7800, 4000, 1000, 10),
+	(5234, '郭靖', '出纳', 5566, 2000, null, 10),
+	(3344, '黄蓉', '销售主管', 7800, 3000, 800, 30),
+	(1359, '胡一刀', '销售员', 3344, 1800, 200, 30),
+	(4466, '苗人凤', '销售员', 3344, 2500, null, 30),
+	(3244, '欧阳锋', '程序员', 3088, 3200, null, 20),
+	(3577, '杨过', '会计', 5566, 2200, null, 10),
+	(3588, '朱九真', '会计', 5566, 2500, null, 10);]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
