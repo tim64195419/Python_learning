@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67b5a905-f1cd-42cb-89d6-58b82512d458" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/practice_pymysql.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Python_learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python_learning.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django_practice/hellodjango/hrs/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django_practice/hellodjango/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django_practice/hellodjango/hellodjango/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django_practice/hellodjango/hellodjango/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django_practice/hellodjango/hellodjango/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django_practice/hellodjango/hellodjango/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django_practice/hellodjango/venv/lib/python3.8/site-packages/django/db/backends/mysql/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django_practice/hellodjango/venv/lib/python3.8/site-packages/django/db/backends/mysql/base.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -56,28 +58,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.practice_pymysql">
-    <configuration name="Poker_game" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python_learning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Poker_game.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.urls">
     <configuration name="Threading" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -162,13 +143,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="urls" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Django_practice/hellodjango/hrs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Django_practice/hellodjango/hrs/urls.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.urls" />
         <item itemvalue="Python.practice_pymysql" />
         <item itemvalue="Python.pickle_pracrice" />
         <item itemvalue="Python.Threading" />
         <item itemvalue="Python.practice" />
-        <item itemvalue="Python.Poker_game" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +225,7 @@
     </state>
     <state x="-1147" y="251" key="DBNavigator.ProjectSettingsDialog/0.23.1280.777/-1366.248.1366.692@-1366.248.1366.692" timestamp="1586074801957" />
     <state x="-1147" y="251" width="764" height="653" key="DBNavigator.ProjectSettingsDialog/0.23.1280.777/-1366.248.1366.745@-1366.248.1366.745" timestamp="1586072963147" />
-    <state width="935" height="171" key="GridCell.Tab.0.bottom" timestamp="1586667039668">
+    <state width="886" height="171" key="GridCell.Tab.0.bottom" timestamp="1586767809381">
       <screen x="0" y="23" width="1280" height="729" />
     </state>
     <state width="613" height="171" key="GridCell.Tab.0.bottom/0.0.1280.800/-1366.225.1366.768@0.0.1280.800" timestamp="1585295284278" />
@@ -234,14 +236,14 @@
     <state width="1122" height="179" key="GridCell.Tab.0.bottom/0.23.1280.726/-1366.244.1366.745@0.23.1280.726" timestamp="1582115144323" />
     <state width="935" height="171" key="GridCell.Tab.0.bottom/0.23.1280.726/-1366.248.1366.745@0.23.1280.726" timestamp="1586661299083" />
     <state width="935" height="171" key="GridCell.Tab.0.bottom/0.23.1280.727/-1366.248.1366.745@0.23.1280.727" timestamp="1586661529336" />
-    <state width="935" height="171" key="GridCell.Tab.0.bottom/0.23.1280.728/-1366.248.1366.745@0.23.1280.728" timestamp="1586662363692" />
+    <state width="926" height="171" key="GridCell.Tab.0.bottom/0.23.1280.728/-1366.248.1366.745@0.23.1280.728" timestamp="1586681593112" />
     <state width="1122" height="179" key="GridCell.Tab.0.bottom/0.23.1280.728@0.23.1280.728" timestamp="1583060020486" />
-    <state width="935" height="171" key="GridCell.Tab.0.bottom/0.23.1280.729/-1366.248.1366.745@0.23.1280.729" timestamp="1586667039668" />
+    <state width="886" height="171" key="GridCell.Tab.0.bottom/0.23.1280.729/-1366.248.1366.745@0.23.1280.729" timestamp="1586767809381" />
     <state width="1122" height="179" key="GridCell.Tab.0.bottom/0.23.1280.777/-1366.244.1366.691@0.23.1280.777" timestamp="1582179704798" />
     <state width="1122" height="179" key="GridCell.Tab.0.bottom/0.23.1280.777/-1366.248.1366.691@0.23.1280.777" timestamp="1583730293253" />
     <state width="873" height="171" key="GridCell.Tab.0.bottom/0.23.1280.777/-1366.248.1366.695@0.23.1280.777" timestamp="1585298756782" />
     <state width="559" height="263" key="GridCell.Tab.0.bottom/0.23.1280.777/-1366.248.1366.745@0.23.1280.777" timestamp="1585149694588" />
-    <state width="935" height="171" key="GridCell.Tab.0.center" timestamp="1586667039668">
+    <state width="886" height="171" key="GridCell.Tab.0.center" timestamp="1586767809379">
       <screen x="0" y="23" width="1280" height="729" />
     </state>
     <state width="613" height="171" key="GridCell.Tab.0.center/0.0.1280.800/-1366.225.1366.768@0.0.1280.800" timestamp="1585295284276" />
@@ -252,14 +254,14 @@
     <state width="1122" height="179" key="GridCell.Tab.0.center/0.23.1280.726/-1366.244.1366.745@0.23.1280.726" timestamp="1582115144322" />
     <state width="935" height="171" key="GridCell.Tab.0.center/0.23.1280.726/-1366.248.1366.745@0.23.1280.726" timestamp="1586661299082" />
     <state width="935" height="171" key="GridCell.Tab.0.center/0.23.1280.727/-1366.248.1366.745@0.23.1280.727" timestamp="1586661529335" />
-    <state width="935" height="171" key="GridCell.Tab.0.center/0.23.1280.728/-1366.248.1366.745@0.23.1280.728" timestamp="1586662363690" />
+    <state width="926" height="171" key="GridCell.Tab.0.center/0.23.1280.728/-1366.248.1366.745@0.23.1280.728" timestamp="1586681593111" />
     <state width="1122" height="179" key="GridCell.Tab.0.center/0.23.1280.728@0.23.1280.728" timestamp="1583060020485" />
-    <state width="935" height="171" key="GridCell.Tab.0.center/0.23.1280.729/-1366.248.1366.745@0.23.1280.729" timestamp="1586667039668" />
+    <state width="886" height="171" key="GridCell.Tab.0.center/0.23.1280.729/-1366.248.1366.745@0.23.1280.729" timestamp="1586767809379" />
     <state width="1122" height="179" key="GridCell.Tab.0.center/0.23.1280.777/-1366.244.1366.691@0.23.1280.777" timestamp="1582179704797" />
     <state width="1122" height="179" key="GridCell.Tab.0.center/0.23.1280.777/-1366.248.1366.691@0.23.1280.777" timestamp="1583730293252" />
     <state width="873" height="171" key="GridCell.Tab.0.center/0.23.1280.777/-1366.248.1366.695@0.23.1280.777" timestamp="1585298756781" />
     <state width="559" height="263" key="GridCell.Tab.0.center/0.23.1280.777/-1366.248.1366.745@0.23.1280.777" timestamp="1585149694586" />
-    <state width="935" height="171" key="GridCell.Tab.0.left" timestamp="1586667039667">
+    <state width="886" height="171" key="GridCell.Tab.0.left" timestamp="1586767809379">
       <screen x="0" y="23" width="1280" height="729" />
     </state>
     <state width="613" height="171" key="GridCell.Tab.0.left/0.0.1280.800/-1366.225.1366.768@0.0.1280.800" timestamp="1585295284275" />
@@ -270,14 +272,14 @@
     <state width="1122" height="179" key="GridCell.Tab.0.left/0.23.1280.726/-1366.244.1366.745@0.23.1280.726" timestamp="1582115144321" />
     <state width="935" height="171" key="GridCell.Tab.0.left/0.23.1280.726/-1366.248.1366.745@0.23.1280.726" timestamp="1586661299080" />
     <state width="935" height="171" key="GridCell.Tab.0.left/0.23.1280.727/-1366.248.1366.745@0.23.1280.727" timestamp="1586661529333" />
-    <state width="935" height="171" key="GridCell.Tab.0.left/0.23.1280.728/-1366.248.1366.745@0.23.1280.728" timestamp="1586662363683" />
+    <state width="926" height="171" key="GridCell.Tab.0.left/0.23.1280.728/-1366.248.1366.745@0.23.1280.728" timestamp="1586681593111" />
     <state width="1122" height="179" key="GridCell.Tab.0.left/0.23.1280.728@0.23.1280.728" timestamp="1583060020485" />
-    <state width="935" height="171" key="GridCell.Tab.0.left/0.23.1280.729/-1366.248.1366.745@0.23.1280.729" timestamp="1586667039667" />
+    <state width="886" height="171" key="GridCell.Tab.0.left/0.23.1280.729/-1366.248.1366.745@0.23.1280.729" timestamp="1586767809379" />
     <state width="1122" height="179" key="GridCell.Tab.0.left/0.23.1280.777/-1366.244.1366.691@0.23.1280.777" timestamp="1582179704796" />
     <state width="1122" height="179" key="GridCell.Tab.0.left/0.23.1280.777/-1366.248.1366.691@0.23.1280.777" timestamp="1583730293251" />
     <state width="873" height="171" key="GridCell.Tab.0.left/0.23.1280.777/-1366.248.1366.695@0.23.1280.777" timestamp="1585298756780" />
     <state width="559" height="263" key="GridCell.Tab.0.left/0.23.1280.777/-1366.248.1366.745@0.23.1280.777" timestamp="1585149694584" />
-    <state width="935" height="171" key="GridCell.Tab.0.right" timestamp="1586667039668">
+    <state width="886" height="171" key="GridCell.Tab.0.right" timestamp="1586767809380">
       <screen x="0" y="23" width="1280" height="729" />
     </state>
     <state width="613" height="171" key="GridCell.Tab.0.right/0.0.1280.800/-1366.225.1366.768@0.0.1280.800" timestamp="1585295284277" />
@@ -288,9 +290,9 @@
     <state width="1122" height="179" key="GridCell.Tab.0.right/0.23.1280.726/-1366.244.1366.745@0.23.1280.726" timestamp="1582115144323" />
     <state width="935" height="171" key="GridCell.Tab.0.right/0.23.1280.726/-1366.248.1366.745@0.23.1280.726" timestamp="1586661299083" />
     <state width="935" height="171" key="GridCell.Tab.0.right/0.23.1280.727/-1366.248.1366.745@0.23.1280.727" timestamp="1586661529336" />
-    <state width="935" height="171" key="GridCell.Tab.0.right/0.23.1280.728/-1366.248.1366.745@0.23.1280.728" timestamp="1586662363691" />
+    <state width="926" height="171" key="GridCell.Tab.0.right/0.23.1280.728/-1366.248.1366.745@0.23.1280.728" timestamp="1586681593112" />
     <state width="1122" height="179" key="GridCell.Tab.0.right/0.23.1280.728@0.23.1280.728" timestamp="1583060020486" />
-    <state width="935" height="171" key="GridCell.Tab.0.right/0.23.1280.729/-1366.248.1366.745@0.23.1280.729" timestamp="1586667039668" />
+    <state width="886" height="171" key="GridCell.Tab.0.right/0.23.1280.729/-1366.248.1366.745@0.23.1280.729" timestamp="1586767809380" />
     <state width="1122" height="179" key="GridCell.Tab.0.right/0.23.1280.777/-1366.244.1366.691@0.23.1280.777" timestamp="1582179704797" />
     <state width="1122" height="179" key="GridCell.Tab.0.right/0.23.1280.777/-1366.248.1366.691@0.23.1280.777" timestamp="1583730293252" />
     <state width="873" height="171" key="GridCell.Tab.0.right/0.23.1280.777/-1366.248.1366.695@0.23.1280.777" timestamp="1585298756782" />
@@ -331,18 +333,23 @@
     <state x="78" y="23" key="SettingsEditor/0.23.1280.726/-1366.244.1366.745@0.23.1280.726" timestamp="1582083803943" />
     <state x="78" y="23" key="SettingsEditor/0.23.1280.726/-1366.248.1366.745@0.23.1280.726" timestamp="1583730793273" />
     <state x="194" y="25" key="SettingsEditor/0.23.1280.728/-1366.248.1366.745@0.23.1280.728" timestamp="1586673157193" />
-    <state x="281" y="217" key="com.intellij.ide.util.TipDialog" timestamp="1586656594131">
-      <screen x="0" y="23" width="1280" height="728" />
+    <state x="281" y="218" key="com.intellij.ide.util.TipDialog" timestamp="1586772024305">
+      <screen x="0" y="23" width="1280" height="727" />
     </state>
     <state x="281" y="217" key="com.intellij.ide.util.TipDialog/0.23.1280.724/-1366.248.1366.745@0.23.1280.724" timestamp="1583217428420" />
     <state x="281" y="217" key="com.intellij.ide.util.TipDialog/0.23.1280.726/-1366.244.1366.745@0.23.1280.726" timestamp="1582112694354" />
     <state x="281" y="217" key="com.intellij.ide.util.TipDialog/0.23.1280.726/-1366.248.1366.745@0.23.1280.726" timestamp="1585365217688" />
-    <state x="281" y="218" key="com.intellij.ide.util.TipDialog/0.23.1280.727/-1366.248.1366.745@0.23.1280.727" timestamp="1586148665514" />
+    <state x="281" y="218" key="com.intellij.ide.util.TipDialog/0.23.1280.727/-1366.248.1366.745@0.23.1280.727" timestamp="1586772024305" />
     <state x="281" y="217" key="com.intellij.ide.util.TipDialog/0.23.1280.728/-1366.248.1366.745@0.23.1280.728" timestamp="1586656594131" />
+    <state x="281" y="218" key="com.intellij.ide.util.TipDialog/0.23.1280.730/-1366.248.1366.745@0.23.1280.730" timestamp="1586751144652" />
     <state x="281" y="231" key="com.intellij.ide.util.TipDialog/0.23.1280.777/-1366.248.1366.745@0.23.1280.777" timestamp="1586072771128" />
     <state x="382" y="308" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582771576964">
       <screen x="0" y="23" width="1280" height="727" />
     </state>
     <state x="382" y="308" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1280.727/-1366.248.1366.745@0.23.1280.727" timestamp="1582771576964" />
+    <state x="443" y="111" width="837" height="550" key="find.popup" timestamp="1586681519520">
+      <screen x="0" y="23" width="1280" height="728" />
+    </state>
+    <state x="443" y="111" width="837" height="550" key="find.popup/0.23.1280.728/-1366.248.1366.745@0.23.1280.728" timestamp="1586681519520" />
   </component>
 </project>
