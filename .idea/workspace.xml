@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67b5a905-f1cd-42cb-89d6-58b82512d458" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Django_practice/hellodjango/hrs/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django_practice/hellodjango/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django_practice/hellodjango/hellodjango/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django_practice/hellodjango/hellodjango/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django_practice/hellodjango/hellodjango/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django_practice/hellodjango/hellodjango/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django_practice/hellodjango/venv/lib/python3.8/site-packages/django/db/backends/mysql/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django_practice/hellodjango/venv/lib/python3.8/site-packages/django/db/backends/mysql/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django_practice/hellodjango/hellodjango/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django_practice/hellodjango/hellodjango/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django_practice/hellodjango/hrs/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django_practice/hellodjango/hrs/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django_practice/hellodjango/hrs/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django_practice/hellodjango/hrs/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django_practice/hellodjango/hrs/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django_practice/hellodjango/hrs/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -333,14 +330,14 @@
     <state x="78" y="23" key="SettingsEditor/0.23.1280.726/-1366.244.1366.745@0.23.1280.726" timestamp="1582083803943" />
     <state x="78" y="23" key="SettingsEditor/0.23.1280.726/-1366.248.1366.745@0.23.1280.726" timestamp="1583730793273" />
     <state x="194" y="25" key="SettingsEditor/0.23.1280.728/-1366.248.1366.745@0.23.1280.728" timestamp="1586673157193" />
-    <state x="281" y="218" key="com.intellij.ide.util.TipDialog" timestamp="1586772024305">
-      <screen x="0" y="23" width="1280" height="727" />
+    <state x="281" y="217" key="com.intellij.ide.util.TipDialog" timestamp="1586930011220">
+      <screen x="0" y="23" width="1280" height="728" />
     </state>
     <state x="281" y="217" key="com.intellij.ide.util.TipDialog/0.23.1280.724/-1366.248.1366.745@0.23.1280.724" timestamp="1583217428420" />
     <state x="281" y="217" key="com.intellij.ide.util.TipDialog/0.23.1280.726/-1366.244.1366.745@0.23.1280.726" timestamp="1582112694354" />
     <state x="281" y="217" key="com.intellij.ide.util.TipDialog/0.23.1280.726/-1366.248.1366.745@0.23.1280.726" timestamp="1585365217688" />
     <state x="281" y="218" key="com.intellij.ide.util.TipDialog/0.23.1280.727/-1366.248.1366.745@0.23.1280.727" timestamp="1586772024305" />
-    <state x="281" y="217" key="com.intellij.ide.util.TipDialog/0.23.1280.728/-1366.248.1366.745@0.23.1280.728" timestamp="1586656594131" />
+    <state x="281" y="217" key="com.intellij.ide.util.TipDialog/0.23.1280.728/-1366.248.1366.745@0.23.1280.728" timestamp="1586930011220" />
     <state x="281" y="218" key="com.intellij.ide.util.TipDialog/0.23.1280.730/-1366.248.1366.745@0.23.1280.730" timestamp="1586751144652" />
     <state x="281" y="231" key="com.intellij.ide.util.TipDialog/0.23.1280.777/-1366.248.1366.745@0.23.1280.777" timestamp="1586072771128" />
     <state x="382" y="308" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582771576964">
