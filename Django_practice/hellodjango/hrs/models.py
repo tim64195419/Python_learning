@@ -33,3 +33,4 @@ class Emp(models.Model):
 
     class Meta:
         db_table = 'tb_emp'
+
