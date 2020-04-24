@@ -25,6 +25,8 @@ urlpatterns = [
     path('hrs/', include('hrs.urls')),
     path('praise/', views.praise_or_criticize),
     path('criticize/', views.praise_or_criticize),
+    path('register/', views.register, name='register'),
+    path('login/', views.login, name='login'),
 ]
 
 # urlpatterns = [
