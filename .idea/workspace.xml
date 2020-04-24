@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67b5a905-f1cd-42cb-89d6-58b82512d458" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Django_practice/hellodjango/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django_practice/hellodjango/templates/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django_practice/hellodjango/captcha/captcha.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django_practice/hellodjango/templates/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Django_practice/hellodjango/hellodjango/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django_practice/hellodjango/hellodjango/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django_practice/hellodjango/templates/subject.html" beforeDir="false" afterPath="$PROJECT_DIR$/Django_practice/hellodjango/templates/subject.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -36,7 +37,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Django_practice/hellodjango/static/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Django_practice/hellodjango/image" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -50,17 +51,22 @@
     </option>
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Django_practice/hellodjango/static/images" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Django_practice/hellodjango/captcha" />
       <recent name="$PROJECT_DIR$/Django_practice/hellodjango" />
+      <recent name="$PROJECT_DIR$/Django_practice/hellodjango/captcha/image" />
       <recent name="$PROJECT_DIR$/Django_practice/static/images" />
       <recent name="$PROJECT_DIR$/Backgammon" />
-      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Django_practice/hellodjango/image" />
+      <recent name="$PROJECT_DIR$/Django_practice/hellodjango/templates/captcha" />
+      <recent name="$PROJECT_DIR$/Django_practice/hellodjango/vote/captcha" />
+      <recent name="$PROJECT_DIR$/Django_practice/hellodjango" />
+      <recent name="$PROJECT_DIR$/Django_practice/hellodjango/captcha" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.urls">
+  <component name="RunManager" selected="Python.tests">
     <configuration name="Threading" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -103,27 +109,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="practice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python_learning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practice.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="practice_pymysql" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -137,6 +122,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practice_pymysql.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tests" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Django_practice/hellodjango/vote" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Django_practice/hellodjango/vote/tests.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -168,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.tests" />
         <item itemvalue="Python.urls" />
         <item itemvalue="Python.practice_pymysql" />
         <item itemvalue="Python.pickle_pracrice" />
         <item itemvalue="Python.Threading" />
-        <item itemvalue="Python.practice" />
       </list>
     </recent_temporary>
   </component>
@@ -227,8 +233,8 @@
     </state>
     <state x="-1147" y="251" key="DBNavigator.ProjectSettingsDialog/0.23.1280.777/-1366.248.1366.692@-1366.248.1366.692" timestamp="1586074801957" />
     <state x="-1147" y="251" width="764" height="653" key="DBNavigator.ProjectSettingsDialog/0.23.1280.777/-1366.248.1366.745@-1366.248.1366.745" timestamp="1586072963147" />
-    <state width="886" height="171" key="GridCell.Tab.0.bottom" timestamp="1586767809381">
-      <screen x="0" y="23" width="1280" height="729" />
+    <state width="1259" height="187" key="GridCell.Tab.0.bottom" timestamp="1587713368170">
+      <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="613" height="171" key="GridCell.Tab.0.bottom/0.0.1280.800/-1366.225.1366.768@0.0.1280.800" timestamp="1585295284278" />
     <state width="1122" height="179" key="GridCell.Tab.0.bottom/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1582112555007" />
@@ -244,9 +250,10 @@
     <state width="1122" height="179" key="GridCell.Tab.0.bottom/0.23.1280.777/-1366.244.1366.691@0.23.1280.777" timestamp="1582179704798" />
     <state width="1122" height="179" key="GridCell.Tab.0.bottom/0.23.1280.777/-1366.248.1366.691@0.23.1280.777" timestamp="1583730293253" />
     <state width="873" height="171" key="GridCell.Tab.0.bottom/0.23.1280.777/-1366.248.1366.695@0.23.1280.777" timestamp="1585298756782" />
+    <state width="1259" height="187" key="GridCell.Tab.0.bottom/0.23.1280.777/-1366.248.1366.696@0.23.1280.777" timestamp="1587713368170" />
     <state width="559" height="263" key="GridCell.Tab.0.bottom/0.23.1280.777/-1366.248.1366.745@0.23.1280.777" timestamp="1585149694588" />
-    <state width="886" height="171" key="GridCell.Tab.0.center" timestamp="1586767809379">
-      <screen x="0" y="23" width="1280" height="729" />
+    <state width="1259" height="187" key="GridCell.Tab.0.center" timestamp="1587713368169">
+      <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="613" height="171" key="GridCell.Tab.0.center/0.0.1280.800/-1366.225.1366.768@0.0.1280.800" timestamp="1585295284276" />
     <state width="1122" height="179" key="GridCell.Tab.0.center/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1582112555007" />
@@ -262,9 +269,10 @@
     <state width="1122" height="179" key="GridCell.Tab.0.center/0.23.1280.777/-1366.244.1366.691@0.23.1280.777" timestamp="1582179704797" />
     <state width="1122" height="179" key="GridCell.Tab.0.center/0.23.1280.777/-1366.248.1366.691@0.23.1280.777" timestamp="1583730293252" />
     <state width="873" height="171" key="GridCell.Tab.0.center/0.23.1280.777/-1366.248.1366.695@0.23.1280.777" timestamp="1585298756781" />
+    <state width="1259" height="187" key="GridCell.Tab.0.center/0.23.1280.777/-1366.248.1366.696@0.23.1280.777" timestamp="1587713368169" />
     <state width="559" height="263" key="GridCell.Tab.0.center/0.23.1280.777/-1366.248.1366.745@0.23.1280.777" timestamp="1585149694586" />
-    <state width="886" height="171" key="GridCell.Tab.0.left" timestamp="1586767809379">
-      <screen x="0" y="23" width="1280" height="729" />
+    <state width="1259" height="187" key="GridCell.Tab.0.left" timestamp="1587713368168">
+      <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="613" height="171" key="GridCell.Tab.0.left/0.0.1280.800/-1366.225.1366.768@0.0.1280.800" timestamp="1585295284275" />
     <state width="1122" height="179" key="GridCell.Tab.0.left/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1582112555006" />
@@ -280,9 +288,10 @@
     <state width="1122" height="179" key="GridCell.Tab.0.left/0.23.1280.777/-1366.244.1366.691@0.23.1280.777" timestamp="1582179704796" />
     <state width="1122" height="179" key="GridCell.Tab.0.left/0.23.1280.777/-1366.248.1366.691@0.23.1280.777" timestamp="1583730293251" />
     <state width="873" height="171" key="GridCell.Tab.0.left/0.23.1280.777/-1366.248.1366.695@0.23.1280.777" timestamp="1585298756780" />
+    <state width="1259" height="187" key="GridCell.Tab.0.left/0.23.1280.777/-1366.248.1366.696@0.23.1280.777" timestamp="1587713368168" />
     <state width="559" height="263" key="GridCell.Tab.0.left/0.23.1280.777/-1366.248.1366.745@0.23.1280.777" timestamp="1585149694584" />
-    <state width="886" height="171" key="GridCell.Tab.0.right" timestamp="1586767809380">
-      <screen x="0" y="23" width="1280" height="729" />
+    <state width="1259" height="187" key="GridCell.Tab.0.right" timestamp="1587713368170">
+      <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="613" height="171" key="GridCell.Tab.0.right/0.0.1280.800/-1366.225.1366.768@0.0.1280.800" timestamp="1585295284277" />
     <state width="1122" height="179" key="GridCell.Tab.0.right/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1582112555007" />
@@ -298,6 +307,7 @@
     <state width="1122" height="179" key="GridCell.Tab.0.right/0.23.1280.777/-1366.244.1366.691@0.23.1280.777" timestamp="1582179704797" />
     <state width="1122" height="179" key="GridCell.Tab.0.right/0.23.1280.777/-1366.248.1366.691@0.23.1280.777" timestamp="1583730293252" />
     <state width="873" height="171" key="GridCell.Tab.0.right/0.23.1280.777/-1366.248.1366.695@0.23.1280.777" timestamp="1585298756782" />
+    <state width="1259" height="187" key="GridCell.Tab.0.right/0.23.1280.777/-1366.248.1366.696@0.23.1280.777" timestamp="1587713368170" />
     <state width="559" height="263" key="GridCell.Tab.0.right/0.23.1280.777/-1366.248.1366.745@0.23.1280.777" timestamp="1585149694587" />
     <state width="559" height="263" key="GridCell.Tab.1.bottom" timestamp="1585149694591">
       <screen x="0" y="23" width="1280" height="777" />

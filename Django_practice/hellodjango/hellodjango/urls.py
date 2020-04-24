@@ -27,6 +27,11 @@ urlpatterns = [
     path('criticize/', views.praise_or_criticize),
     path('register/', views.register, name='register'),
     path('login/', views.login, name='login'),
+    path('logout/', views.logout, name='logout'),
+
+    # path('/captcha/', views.logout, name='logout'),
+
+
 ]
 
 # urlpatterns = [
