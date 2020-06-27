@@ -345,8 +345,8 @@
     <state x="78" y="23" key="SettingsEditor/0.23.1280.726/-1366.244.1366.745@0.23.1280.726" timestamp="1582083803943" />
     <state x="78" y="23" key="SettingsEditor/0.23.1280.726/-1366.248.1366.745@0.23.1280.726" timestamp="1583730793273" />
     <state x="194" y="25" key="SettingsEditor/0.23.1280.728/-1366.248.1366.745@0.23.1280.728" timestamp="1586673157193" />
-    <state x="281" y="229" key="com.intellij.ide.util.TipDialog" timestamp="1587709978205">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state x="281" y="218" key="com.intellij.ide.util.TipDialog" timestamp="1587812707941">
+      <screen x="0" y="23" width="1280" height="734" />
     </state>
     <state x="281" y="217" key="com.intellij.ide.util.TipDialog/0.23.1280.724/-1366.248.1366.745@0.23.1280.724" timestamp="1583217428420" />
     <state x="281" y="217" key="com.intellij.ide.util.TipDialog/0.23.1280.726/-1366.244.1366.745@0.23.1280.726" timestamp="1582112694354" />
@@ -354,6 +354,7 @@
     <state x="281" y="218" key="com.intellij.ide.util.TipDialog/0.23.1280.727/-1366.248.1366.745@0.23.1280.727" timestamp="1586772024305" />
     <state x="281" y="217" key="com.intellij.ide.util.TipDialog/0.23.1280.728/-1366.248.1366.745@0.23.1280.728" timestamp="1586930011220" />
     <state x="281" y="217" key="com.intellij.ide.util.TipDialog/0.23.1280.730/-1366.248.1366.745@0.23.1280.730" timestamp="1587101250637" />
+    <state x="281" y="218" key="com.intellij.ide.util.TipDialog/0.23.1280.734@0.23.1280.734" timestamp="1587812707941" />
     <state x="281" y="229" key="com.intellij.ide.util.TipDialog/0.23.1280.777/-1366.248.1366.696@0.23.1280.777" timestamp="1587709978205" />
     <state x="281" y="231" key="com.intellij.ide.util.TipDialog/0.23.1280.777/-1366.248.1366.745@0.23.1280.777" timestamp="1586072771128" />
     <state x="382" y="308" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582771576964">
